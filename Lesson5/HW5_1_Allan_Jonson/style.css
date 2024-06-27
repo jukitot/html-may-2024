@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active {
+    color: #365454;
+}
+/*-----------------Header---------------------*/
+header {
+    font-family: "Orbitron", sans-serif;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav {
+    width: 60%;
+}
+header nav ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a {
+    text-decoration: none;
+    color: #868181;
+    transition: 0.5s;
+    font-size: 18px;
+}
+header nav ul a:hover {
+    color: #051c13;
+    transition: 1s;
+}
+header div {
+    text-align: center;
+}
+/*-----------------Section---------------------*/
+section {
+    font-family: "Orbitron", sans-serif;
+    height: 90vh;
+    background-image: url("bg-forest.png");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-text {
+    margin-top: 10vh;
+}
+
+section p {
+    font-size: 20px;
+}
+
+section h1 {
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 10px 0;
+}
+
+section button {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 1s;
+}
+section button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*-----------Contact-------------*/
+.contact-block {
+    margin-top: 5%;
+    width: 70vw;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-block .contact-info{
+    width: 30%;
+    height: 80%;
+    /*background-color: white;*/
+}
+.contact-block .contact-form{
+    width: 30%;
+    height: 70%;
+    background-color: white;
+}
+.contact-block img {
+    width: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.map img {
+    width: 100%;
+    transition: 1s;
+    border-radius: 10px;
+}
+.map img:hover {
+    transform: scale(1.8);
+    transition: 1s;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form form {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form form input {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #e6e5e5;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
