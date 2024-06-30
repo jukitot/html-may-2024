@@ -94,7 +94,6 @@ section button:hover {
 .contact-block .contact-info{
     width: 30%;
     height: 80%;
-    /*background-color: white;*/
 }
 .contact-block .contact-form{
     width: 30%;
@@ -103,9 +102,10 @@ section button:hover {
 }
 .contact-block img {
     width: 30px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 10px;
 }
+
 
 .map img {
     width: 100%;
