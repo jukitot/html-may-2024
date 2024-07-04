@@ -22,6 +22,7 @@ header ul {
     list-style:none;
 }
 main {
+
     font-family: "Roboto";
     height: 88vh;
     background-color: #FBF6F3;
@@ -50,12 +51,12 @@ main div ul {
 a {
     text-decoration: none;
     color: black;
-    cursor: pointer;
 }
 a:hover{
     color: #A19FA0;
 }
 main div h1 {
+
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
