@@ -5,9 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    background-color: #1E1E1E;
-    height: 13vh;
+a {
+    text-decoration: none;
     color: #E9E3DC;
     font-family: "Bowlby One";
     font-size: 18px;
@@ -15,6 +14,18 @@ header {
     font-weight: 400;
     line-height: 96.896%;
     text-transform: uppercase;
+}
+header ul li {
+    transition: 0.5s;
+}
+header ul li:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+header {
+    background-color: #1E1E1E;
+    height: 13vh;
+
 }
 header ul {
     margin-right: 50px;
