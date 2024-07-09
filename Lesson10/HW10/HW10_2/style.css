@@ -170,6 +170,7 @@ header button:hover {
     transition: 0.5s;
     transform: scale(1.1);
 }
+/*************last-block************/
 .last-block {
     background-color:#1E1E1E;
     display: flex;
