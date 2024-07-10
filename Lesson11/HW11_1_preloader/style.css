@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #363c4a;
+}
+
+body div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: lightgreen;
+}
+
+.circle-1 {
+    animation: circle 0.5s linear infinite alternate;
+    animation-delay: 0s;
+}
+
+.circle-2 {
+    animation: circle 0.5s linear infinite alternate;
+    animation-delay: 0.1s;
+}
+
+.circle-3 {
+    animation: circle 0.5s linear infinite alternate;
+    animation-delay: 0.2s;
+}
+
+@keyframes circle {
+    0% {
+        background-color: hotpink;
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    75% {
+        transform: translateY(-45px);
+    }
+    100% {
+        transform: translateY(-50px);
+
+    }
+}

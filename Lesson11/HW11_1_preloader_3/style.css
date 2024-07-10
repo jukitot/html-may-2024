@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #363c4a;
+}
+body div {
+    height: 30px;
+    width: 30px;
+    background-color: lightgreen;
+}
+.square-1 {
+    animation: square 0.5s linear infinite alternate;
+    animation-delay: 0s;
+}
+.square-2 {
+    animation: square 0.5s linear infinite alternate;
+    animation-delay: 0.1s;
+}
+.square-3 {
+    animation: square 0.5s linear infinite alternate;
+    animation-delay: 0.2s;
+}
+
+@keyframes square {
+    0%{
+        background-color: hotpink;
+        transform: scale(0);
+    }
+    50%{
+        background-color: lightgreen;
+        transform: scale(1.2);
+    }
+    100%{
+        background-color: #90eed5;
+        transform: scale(1.5);
+
+    }
+}

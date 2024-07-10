@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #363c4a;
+}
+
+body div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: lightgreen;
+}
+
+.circle-1 {
+    animation: circle1 0.5s linear infinite alternate;
+}
+
+.circle-2 {
+    animation: circle2 0.5s linear infinite alternate;
+}
+
+.circle-3 {
+    animation: circle1 0.5s linear infinite alternate;
+}
+
+@keyframes circle1 {
+    0% {
+
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-30px);
+        background-color: hotpink;
+    }
+}
+
+@keyframes circle2 {
+    0% {
+        transform: translateY(-30px);
+        background-color: hotpink;
+
+    }
+    100% {
+        background-color: lightgreen;
+        transform: translateY(0);
+    }
+}
+

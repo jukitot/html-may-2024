@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    font-family: Inter;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+    font-family: Inter;
+
+    background-color: #F5F5F7;
+}
+
+nav div {
+    animation: nav_animation 0.4s ease-in 1;
+}
+
+nav div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+nav div a:hover {
+    color: deepskyblue;
+}
+
+main {
+    height: 900px;
+    padding-top: 78px;
+    background-color: #F5F5F7;
+}
+
+.main_img {
+    display: flex;
+    margin: 0 auto 67px auto;
+    animation: img_animation 1s ease-out 1;
+}
+
+main h1 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px; /* 100% */
+    letter-spacing: -1.44px;
+    animation: text_animation 1s ease-in 1;
+}
+
+main p {
+    display: flex;
+    margin: 52px auto;
+    width: 975.81px;
+    color: #86868B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 21.563px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 129.855% */
+    letter-spacing: 0.216px;
+    animation: text_animation 1s ease-in 1;
+}
+
+@keyframes nav_animation {
+    0% {
+        transform: translateX(400px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes img_animation {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes text_animation {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
