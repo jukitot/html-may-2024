@@ -1,0 +1,66 @@
+table {
+    font-size: 20px;
+    margin: 0 auto;
+}
+th {
+    color: maroon;
+}
+th, td {
+    border: 2px solid #afabab;
+    width: 150px;
+    height: 30px;
+}
+.blue {
+    background-color: #0000FF;
+}
+.black {
+    background-color: #000000;
+}
+.red {
+    background-color: #FF0000;
+}
+.white {
+    background-color: #FFFFFF;
+}
+.green {
+    background-color: #008000;
+}
+.purple {
+    background-color: #800080;
+}
+.yellow {
+    background-color: #FFFF00;
+}
+.orange {
+    background-color: #FFA500;
+}
+.violet {
+    background-color: #EE82EE;
+}
+.silver {
+    background-color: #C0C0C0;
+}
+.gold {
+    background-color: #FFD700;
+}
+.gray {
+    background-color: #808080;
+}
+.pink {
+    background-color: #FFC0CB;
+}
+.fuscia {
+    background-color: #FF00FF;
+}
+.light-blue {
+    background-color: #ADD8E6;
+}
+.sky-blue {
+    background-color: #87CEEB;
+}
+.aqua {
+    background-color: #00FFFF;
+}
+.khaki {
+    background-color: #F0E68C;
+}
