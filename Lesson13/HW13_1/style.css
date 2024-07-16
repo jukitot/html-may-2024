@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+header {
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.logo img{
+    height: 50px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+header ul button{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+/*content*/
+.content {
+    position: relative;
+}
+video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    top: 0;
+}
+
+/*input*/
+section {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section h1 {
+    color: white;
+    width: 30vw;
+}
