@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Inter, sans-serif;
 }
+
 header {
     display: flex;
     height: 10vh;
     justify-content: space-around;
     align-items: center;
 }
+
 .logo {
     color: white;
     display: flex;
@@ -18,22 +21,26 @@ header {
     align-items: center;
     gap: 25px;
 }
-.logo img{
+
+.logo img {
     height: 50px;
 }
-header ul{
+
+header ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     list-style: none;
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
-header ul button{
+
+header ul button {
     width: 130px;
     height: 50px;
     border-radius: 10px;
@@ -46,6 +53,7 @@ header ul button{
 .content {
     position: relative;
 }
+
 video {
     width: 100%;
     height: 70vh;
@@ -63,10 +71,12 @@ section {
     align-items: center;
     flex-direction: column;
 }
+
 section h1 {
     color: white;
     width: 30vw;
 }
+
 .input-box {
     margin-top: 30px;
     width: 30vw;
@@ -78,6 +88,7 @@ section h1 {
     gap: 10px;
     border-radius: 10px;
 }
+
 .input-box input {
     width: 70%;
     margin-right: 10px;
@@ -86,10 +97,12 @@ section h1 {
     outline: none;
     font-size: 18px;
 }
-.input-box > img{
+
+.input-box > img {
     height: 20px;
     margin-right: 20px;
 }
+
 .video-box {
     margin-left: 10px;
     width: 100px;
@@ -102,6 +115,7 @@ section h1 {
     align-items: center;
     gap: 10px;
 }
+
 .video-box img {
     height: 20px;
 }
