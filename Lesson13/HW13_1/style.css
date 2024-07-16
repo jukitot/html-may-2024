@@ -66,3 +66,41 @@ section h1 {
     color: white;
     width: 30vw;
 }
+.input-box {
+    margin-top: 30px;
+    width: 30vw;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.input-box input {
+    width: 70%;
+    margin-right: 10px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.input-box > img{
+    height: 20px;
+    margin-right: 20px;
+}
+.video-box {
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.video-box img {
+    height: 20px;
+}
