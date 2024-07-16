@@ -39,6 +39,7 @@ header ul button{
     border-radius: 10px;
     border: none;
     font-size: 18px;
+    background-color: white;
 }
 
 /*content*/
@@ -69,13 +70,13 @@ section h1 {
 .input-box {
     margin-top: 30px;
     width: 30vw;
-    height: 40px;
+    height: 50px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .input-box input {
     width: 70%;
@@ -93,9 +94,9 @@ section h1 {
     margin-left: 10px;
     width: 100px;
     height: 30px;
-    background-color: lightgrey;
+    background-color: #e0e0e0;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     display: flex;
     justify-content: center;
     align-items: center;
