@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -10,6 +13,7 @@ body {
     flex-direction: column;
     background-color: #F7F6F4;
 }
+
 header {
     width: 1100px;
     height: 10vh;
@@ -18,14 +22,16 @@ header {
     align-items: center;
     gap: 186px;
 }
-header ul {
+
+header > ul {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
-header ul li a {
+
+header > ul > li > a {
     text-decoration: none;
     color: #333;
     font-family: Taviraj;
@@ -35,8 +41,13 @@ header ul li a {
     line-height: normal;
     letter-spacing: 0.4px;
 }
+
+header > ul > li > a:hover {
+    color: #757474;
+}
+
 /*banner*/
-section.banner{
+section.banner {
     width: 1100px;
     height: 505px;
     background-color: #F1DDC9;
@@ -47,6 +58,7 @@ section.banner{
     gap: 56px;
     margin-bottom: 79px;
 }
+
 .banner .banner-text-box h1 {
     color: #333;
     font-family: Taviraj;
@@ -55,7 +67,7 @@ section.banner{
     font-weight: 400;
     line-height: 80px; /* 133.333% */
     letter-spacing: 1.2px;
-    width: 413px;
+    width: 450px;
     margin-bottom: 32px;
 }
 
@@ -84,6 +96,13 @@ section.banner{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.4px;
+    transition: 0.5s;
+}
+
+.banner .banner-text-box button:hover {
+    background-color: white;
+    color: #D84727;
+    transition: 0.5s;
 }
 
 /*deals*/
@@ -91,6 +110,7 @@ section.deals {
     width: 1100px;
     height: 505px;
 }
+
 section.deals h3 {
     text-align: left;
     color: #333;
@@ -101,11 +121,13 @@ section.deals h3 {
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
 }
+
 section.deals .images {
     display: flex;
     margin-top: 129px;
     gap: 30px;
 }
+
 section.deals .images .img-block {
     width: 255px;
     height: 278px;
@@ -116,8 +138,14 @@ section.deals .images .img-block {
     flex-direction: column;
     position: relative;
     margin-bottom: 132px;
-
+    transition: 0.5s;
 }
+
+section.deals .images .img-block:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
 section.deals .images .img-block img {
     position: absolute;
     top: -40px;
@@ -139,6 +167,7 @@ section.deals .images .img-block h4 {
 section.news {
     width: 1100px;
 }
+
 section.news .news-block {
     display: flex;
     justify-content: space-between;
@@ -146,6 +175,16 @@ section.news .news-block {
     gap: 55px;
     margin-bottom: 150px;
 }
+
+section.news .news-block img {
+    transition: 0.5s;
+}
+
+section.news .news-block img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
 section.news .news-block p {
     color: #777;
     font-family: Taviraj;
@@ -155,6 +194,7 @@ section.news .news-block p {
     line-height: 40px; /* 200% */
     letter-spacing: 0.4px;
 }
+
 section.news .news-block h3 {
     margin-top: 16px;
     color: #333;
@@ -164,7 +204,9 @@ section.news .news-block h3 {
     font-weight: 400;
     line-height: 48px; /* 133.333% */
     letter-spacing: 0.72px;
+    width: 350px;
 }
+
 section.news > h3 {
     text-align: left;
     color: #333;
@@ -174,4 +216,40 @@ section.news > h3 {
     font-weight: 500;
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
+}
+
+.block-display {
+    display: none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.70);
+    padding: 15px 41px 23px 20px;
+    width: 160px;
+    height: 107px;
+}
+
+.block-display > ul {
+    list-style: none;
+}
+
+.block-display > ul > li {
+
+}
+
+.block-display > ul > li > a {
+    text-decoration: none;
+    color: #333;
+    font-family: Taviraj;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.block-display > ul > li > a:hover {
+    color: #757474;
+}
+
+header > ul > li:hover .block-display {
+    display: block;
 }
