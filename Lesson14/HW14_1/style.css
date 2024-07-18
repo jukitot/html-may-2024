@@ -29,6 +29,7 @@ header > ul {
     justify-content: center;
     align-items: center;
     gap: 40px;
+
 }
 
 header > ul > li > a {
@@ -40,6 +41,7 @@ header > ul > li > a {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.4px;
+
 }
 
 header > ul > li > a:hover {
@@ -224,7 +226,7 @@ section.news > h3 {
     background: rgba(255, 255, 255, 0.70);
     padding: 15px 41px 23px 20px;
     width: 160px;
-    height: 107px;
+    height: 120px;
 }
 
 .block-display > ul {
