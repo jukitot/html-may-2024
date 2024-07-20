@@ -1,0 +1,57 @@
+body {
+    flex-direction: column;
+    height: 100vh;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header {
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    color: grey;
+    margin: auto;
+}
+main {
+
+    height: 75vh;
+}
+
+
+.block-b {
+    height: 35vh;
+    width: 75vw;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    color: grey;
+}
+.block-f {
+    height: 100%;
+    width: 25vw;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    color: grey;
+    margin: auto;
+}
+.blocks-c-d-e div {
+    height: 35vh;
+    width: 33%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    color: grey;
+
+}
+.section-blocks-1 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
