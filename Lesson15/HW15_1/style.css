@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+header {
+    margin: 20px auto;
+    width: 1400px;
+    height: 25vh;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid grey;
+    color: grey;
+    font-size: 24px;
+}
+main {
+    margin-bottom: 20px;
+}
+main > div:nth-child(1){
+    width: 1090px;
+    height: 75vh;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid grey;
+    color: grey;
+    font-size: 24px;
+}
+main > div:nth-child(2){
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid grey;
+    color: grey;
+    width: 290px;
+    height: 75vh;
+    font-size: 24px;
+}

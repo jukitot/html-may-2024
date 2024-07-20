@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+    header {
+        width: 450px;
+        height: 10vh;
+        background-color: lightgrey;
+    }
+    main {
+        flex-wrap: wrap;
+    }
+    main > div:nth-child(1) {
+        width: 450px;
+        height: 70vh;
+    }
+    main > div:nth-child(2) {
+        width: 450px;
+        height: 10vh;
+    }
+
+}
