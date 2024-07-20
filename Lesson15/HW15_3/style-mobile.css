@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px){
+    header {
+        gap: 5px;
+        width: 100vw;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+    }
+    header div {
+        margin: 0 auto;
+        width: 98%;
+    }
+    main {
+        height: 100px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    };
+    section {
+        width: 100%;
+    }
+    section article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
