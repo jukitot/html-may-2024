@@ -1,0 +1,56 @@
+@media screen and  (max-width: 480px) {
+    body {
+
+        padding: 48px 16px;
+    }
+
+    .circle-1 {
+        display: none;
+    }
+
+    .circle-2 {
+        display: none;
+    }
+
+    .block-404 {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block-404 h1 {
+        font-size: 110px;
+        height: 110px;
+    }
+
+    .block-404 h2 {
+        margin-top: 17px;
+        font-size: 28px;
+
+    }
+
+    .block-404 p {
+        margin-top: 17px;
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .buttons {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .buttons button:nth-child(1) {
+        width: 95%;
+        height: 64px;
+    }
+
+    .buttons button:nth-child(2) {
+        width: 95%;
+        height: 64px;
+    }
+}
