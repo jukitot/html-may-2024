@@ -1,0 +1,8 @@
+@media screen and (max-width: 480px) {
+    body {
+        padding: 32px 16px;
+    }
+    main div {
+        width: 100%;
+    }
+}

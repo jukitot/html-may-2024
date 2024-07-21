@@ -1,0 +1,23 @@
+@media screen and (min-width: 480px) and (max-width: 1280px) {
+    body {
+        padding: 32px 24px;
+    }
+
+    main {
+        align-items: flex-start;
+    }
+
+    main div img {
+        width: 100%;
+    }
+
+    main div:nth-child(n+4) {
+        margin-top: 64px;
+    }
+
+    main div p:nth-child(even) {
+        margin-top: 20px;
+    }
+
+
+}
