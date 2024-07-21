@@ -2,12 +2,14 @@ body {
     flex-direction: column;
     height: 100vh;
 }
-.flex-center{
+
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
+
 header {
     height: 30vh;
     width: 100%;
@@ -17,6 +19,7 @@ header {
     color: grey;
     margin: auto;
 }
+
 main {
 
     height: 75vh;
@@ -31,6 +34,7 @@ main {
     background-color: lightgrey;
     color: grey;
 }
+
 .block-f {
     height: 100%;
     width: 25vw;
@@ -40,6 +44,7 @@ main {
     color: grey;
     margin: auto;
 }
+
 .blocks-c-d-e div {
     height: 35vh;
     width: 33%;
@@ -49,6 +54,7 @@ main {
     color: grey;
 
 }
+
 .section-blocks-1 {
     display: flex;
     gap: 10px;

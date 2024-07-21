@@ -5,6 +5,7 @@ header {
     align-items: center;
     gap: 20px;
 }
+
 header div {
     height: 25px;
     width: 50px;
@@ -15,6 +16,7 @@ header div {
     color: white;
     margin-left: 10px;
 }
+
 main {
     margin: 10px auto;
     height: 300px;
@@ -25,11 +27,13 @@ main {
     text-align: right;
     font-size: 24px;
 }
+
 main > p {
-    margin:0;
+    margin: 0;
     color: white;
 
 }
+
 section {
     display: flex;
     justify-content: center;
@@ -38,6 +42,7 @@ section {
     gap: 10px;
 
 }
+
 section article {
     width: 48%;
     margin: 0;

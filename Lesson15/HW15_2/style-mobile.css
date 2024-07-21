@@ -1,17 +1,21 @@
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     main {
         flex-wrap: wrap;
     }
+
     header {
         height: 20vh;
         margin: 0;
     }
+
     header, .block-b {
         width: 450px;
     }
+
     .blocks-c-d-e div {
         height: 15vh;
     }
+
     .block-f {
         height: 20vh;
         width: 450px;
