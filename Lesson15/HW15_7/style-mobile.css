@@ -2,9 +2,11 @@
     body {
         padding: 32px 16px;
     }
+
     main {
         padding: 20px 0;
     }
+
     main h1 {
         width: auto;
         font-size: 28px;
@@ -13,6 +15,5 @@
     main .buttons {
         margin-top: 32px;
         flex-direction: column;
-
     }
 }

@@ -2,18 +2,23 @@
     body {
         padding: 48px 24px;
     }
+
     main {
         padding: 30px 24px;
     }
+
     main h1 {
         font-size: 32px;
     }
+
     main > p {
         font-size: 18px;
     }
+
     main .buttons {
         gap: 32px;
     }
+
     main .buttons button {
         padding: 0px 30px;
     }

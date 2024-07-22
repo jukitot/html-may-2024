@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -31,7 +30,6 @@ body {
     position: absolute;
     right: -120px;
     top: -20px;
-
 }
 
 .block-404 {
@@ -92,7 +90,6 @@ body {
     gap: 8px;
     color: #FFF;
     text-align: center;
-
     /* Text/3 strong */
     font-family: Inter;
     font-size: 16px;
@@ -119,7 +116,6 @@ body {
     background: #FFF;
     color: #000;
     text-align: center;
-
     /* Text/3 strong */
     font-family: Inter;
     font-size: 16px;

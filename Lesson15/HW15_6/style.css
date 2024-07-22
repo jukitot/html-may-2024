@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     padding: 64px 48px;
 }
@@ -15,15 +17,16 @@ main {
     flex-wrap: wrap;
     gap: 32px;
 }
+
 main div {
     width: 270px;
 }
+
 main div h3 {
     margin-top: 30px;
     height: auto;
     width: auto;
     color: #161543;
-
     /* Text/1 strong */
     font-family: Inter;
     font-size: 20px;
@@ -31,11 +34,11 @@ main div h3 {
     font-weight: 700;
     line-height: 120%; /* 24px */
 }
+
 main div p {
     width: auto;
     height: 70px;
     color: #7687A1;
-
     /* Text/3 regular */
     font-family: Inter;
     font-size: 16px;

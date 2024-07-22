@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     padding: 64px 32px;
-
 }
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
+
 .block-1 {
     margin-bottom: 24px;
     display: flex;
@@ -21,6 +24,7 @@ main {
     align-items: center;
     gap: 24px;
 }
+
 .block-1 .orange-block {
     display: flex;
     padding: 8px 16px;
@@ -28,16 +32,16 @@ main {
     gap: 10px;
     border-radius: 8px;
     background: #FF9500;
-    color:  #FFF;
-
+    color: #FFF;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 25.2px */
 }
+
 .block-1 a {
-    color:  #6F1DF4;
+    color: #6F1DF4;
     text-align: center;
     /* Text/2 regular */
     font-family: Inter;
@@ -45,7 +49,6 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 25.2px */
-
     /* Text/2 regular */
     font-family: Inter;
     font-size: 18px;
@@ -53,9 +56,10 @@ main {
     font-weight: 400;
     line-height: 140%; /* 25.2px */
 }
+
 .block-text h1 {
     margin-bottom: 24px;
-    color:  #000;
+    color: #000;
     /* Large title/2 strong */
     font-family: Inter;
     font-size: 64px;
@@ -65,10 +69,12 @@ main {
     height: 154px;
     width: 578px;
 }
+
 .block-text ul {
     margin-bottom: 40px;
     padding-left: 35px;
 }
+
 .block-text ul li {
     height: 34px;
     width: 100%;
@@ -90,8 +96,8 @@ main {
     align-items: center;
     gap: 8px;
     border-radius: 8px;
-    background:  #6F1DF4;
-    color:  #FFF;
+    background: #6F1DF4;
+    color: #FFF;
     text-align: center;
     border: none;
     /* Text/3 strong */
@@ -102,6 +108,7 @@ main {
     line-height: 120%; /* 19.2px */
     cursor: pointer;
 }
+
 .block-text button:hover {
     background-color: #edeaea;
     color: #6F1DF4;
