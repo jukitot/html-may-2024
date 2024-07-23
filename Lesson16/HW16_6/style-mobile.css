@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+    .container {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+                "header"
+                "section1"
+                "section2"
+                "section3"
+                "footer";
+    }
+}
