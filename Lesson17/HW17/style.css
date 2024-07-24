@@ -1,0 +1,18 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 64px;
+}
+
+.carousel{
+    height: 50vh;
+    width: 50vw;
+    margin: 0 auto;
+}
+.carousel-inner{
+    margin: 0 auto;
+    width: 50vw;
+    height: 50vh;
+}
