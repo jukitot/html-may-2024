@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+* {
+    margin:0;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.navbar-brand {
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    color: hotpink;
+}
 .flex {
     display: flex;
     justify-content: center;
@@ -15,4 +31,62 @@
     margin: 0 auto;
     width: 50vw;
     height: 50vh;
+}
+
+.fs-3 {
+    margin: 24px auto;
+    width: 80vw;
+}
+
+.fs-1 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text {
+    margin-top: auto;
+}
+.sale {
+
+    top: -20px;
+    left: -20px;
+    background-color: rgba(255, 255, 255, 0.74);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid hotpink;
+}
+/*catalog*/
+
+.price {
+    width: 50%;
+    background-color: rgba(255, 105, 180, 0.76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.price:hover {
+    background-color: rgba(255, 105, 180, 0.6);
+    color: hotpink;
+}
+
+.price p {
+    color: white;
+    font-size: 30px
 }
